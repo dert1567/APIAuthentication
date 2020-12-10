@@ -19,9 +19,9 @@ if (process.env.NODE_ENV === "test") {
 } else {
 
 mongoose.connect(
-    "mongodb+srv://test:" +
+    "...." +
      process.env.MONGO_ATLAS_PW + 
-     "@cluster0.gjoso.mongodb.net/<dbname>?retryWrites=true&w=majority",{
+     "....",{
       useNewUrlParser: true
     });
 
